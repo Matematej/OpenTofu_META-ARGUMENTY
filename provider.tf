@@ -1,4 +1,10 @@
 provider "azurerm" {
+  alias   = "prod"
+  features {}
+}
+
+provider "azurerm" {
+  alias   = "test"
   features {}
 }
 
